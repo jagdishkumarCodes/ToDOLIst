@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="wrapper">
+        <div class="taskInput">
+          <i class="ri-menu-fill"></i>
+          <input type="text" placeholder="Add a new task 🥸" />
+        </div>
+        <div class="controls">
+          <div class="filters">
+            <span  id="all" class="active">ALL</span>
+            <span  id="pending">Pending 😒</span
+            ><span id="completed">Completed 😘</span>
+          </div>
+          <div class="btn">
+            <button class="clear-button">Clear All</button>
+          </div>
+        </div>
+        <ul class="task-box">
+          <li class="task">
+            <label for="1">
+              <input type="checkbox" id="1" />
+              <p>New js tutorial</p>
+            </label>
+            <div class="settings">
+              <img src="icons8-dots-loading-48.png" alt="" />
+            </div>
+          </li>
+          <li class="task">
+            <label for="1">
+              <input type="checkbox" id="1" />
+              <p>make css tutorial</p>
+            </label>
+            <div class="settings">
+              <img src="icons8-dots-loading-48.png" alt="" />
+            </div>
+          </li>
+          <li class="task">
+            <label for="1">
+              <input type="checkbox" id="1" />
+              <p>make Video for Youtube</p>
+            </label>
+            <div class="settings">
+              <img src="icons8-dots-loading-48.png" alt="" />
+            </div>
+          </li>
+          <li class="task">
+            <label for="1">
+              <input type="checkbox" id="1" />
+              <p>make a new project</p>
+            </label>
+            <div class="settings">
+              <img src="icons8-dots-loading-48.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
